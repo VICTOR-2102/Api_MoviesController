@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "BxZjeSchHU7kTq1hRWxNLHi3k1I/vbff9IyguxMEkb0=",
+  "Source": "Api_MoviesController",
+  "BasePath": "_content/Api_MoviesController",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Api_MoviesController\\wwwroot",
+      "Source": "Api_MoviesController",
+      "ContentRoot": "C:\\Users\\vhmar\\OneDrive\\Área de Trabalho\\Api_MoviesController\\Api_MoviesController\\wwwroot\\",
+      "BasePath": "_content/Api_MoviesController",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
