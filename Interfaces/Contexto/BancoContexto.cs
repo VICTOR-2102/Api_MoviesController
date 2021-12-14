@@ -13,14 +13,18 @@ namespace Repositorio.Contexto
     {
         DbSet<Filme> Filmes { get; set; }
         DbSet<Espectador> Espectadores { get; set; }
+        DbSet<PlayMovie> PlayMovies { get; set; }
 
         public BancoContexto(DbContextOptions options) : base(options) { }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(BancoContexto).Assembly);
             modelBuilder
                 .ApplyConfiguration(new FilmeConfig())
+                .ApplyConfiguration(new PlayMovieConfig() )
                 .ApplyConfiguration(new EspectadorConfig());
+            
         }
+
     }
 }

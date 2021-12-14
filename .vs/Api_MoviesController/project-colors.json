@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3bd0151d-7264-4a08-bed3-5664364a3863": {
+      "ProjectGuid": "3bd0151d-7264-4a08-bed3-5664364a3863",
+      "DisplayName": "Api_MoviesController",
+      "ColorIndex": 0
+    },
+    "3b792817-0239-499f-9a9b-ad490d5c4ca3": {
+      "ProjectGuid": "3b792817-0239-499f-9a9b-ad490d5c4ca3",
+      "DisplayName": "Dominio",
+      "ColorIndex": 1
+    },
+    "b4480c05-5431-4943-a6b8-678d23a7ef9f": {
+      "ProjectGuid": "b4480c05-5431-4943-a6b8-678d23a7ef9f",
+      "DisplayName": "Repositorio",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
