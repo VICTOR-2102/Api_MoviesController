@@ -1,7 +1,9 @@
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\Dominio.runtimeconfig.json
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\Dominio.dll
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\ref\Dominio.dll
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
@@ -9,6 +11,4 @@ C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.dll
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\ref\Dominio.dll
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.pdb
-C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\bin\Debug\net6.0\Dominio.runtimeconfig.json
 C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.genruntimeconfig.cache
-C:\Users\vhmar\OneDrive\Área de Trabalho\Api_MoviesController\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache

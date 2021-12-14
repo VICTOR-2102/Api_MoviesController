@@ -36,12 +36,13 @@ namespace Api_MoviesController
 
             //Banco de Dados
             services.AddDbContext<BancoContexto>(options =>
-               options.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+               options.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),a => a.MigrationsAssembly("Repositorio")));
 
 
             // Add Scopo
             services.AddScoped<IFilmeRepositorio, FilmeRepositorio>();
             services.AddScoped<IEspectadorRepositorio, EspectadorRepositorio>();
+            services.AddScoped<IPlayMovieRepositorio, PlayMovieRepositorio>();
 
             //Swagger
             services.AddSwaggerGen(c =>

@@ -21,7 +21,7 @@ namespace Api_MoviesController.Controllers
 
         // GET obter todos
         [HttpGet()]
-        public async Task<IActionResult> Get()
+        public IActionResult Get()
         {
             try
             {
@@ -51,7 +51,7 @@ namespace Api_MoviesController.Controllers
 
         // GET por ID
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public IActionResult Get(int id)
         {
             try
             {
@@ -82,7 +82,7 @@ namespace Api_MoviesController.Controllers
 
         // POST api/<CategoriaController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] FilmeRequest filme)
+        public IActionResult Post([FromBody] FilmeRequest filme)
         {
             try
             {
@@ -105,7 +105,7 @@ namespace Api_MoviesController.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] FilmeRequest filme)
+        public IActionResult Put(int id, [FromBody] FilmeRequest filme)
         {
             try
             {
@@ -133,7 +133,7 @@ namespace Api_MoviesController.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id = 0)
+        public IActionResult Delete(int id = 0)
         {
             try
             {

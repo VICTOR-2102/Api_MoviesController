@@ -25,13 +25,12 @@ namespace Api_MoviesController.Controllers
 
         // POST api/<ClienteController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] PlayMovieRequest playmovie)
+        public IActionResult Post([FromBody] PlayMovieRequest playmovie)
         {
             try
             {
                 PlayMovie play = new PlayMovie();
 
-                play.NomeDoFilme = playmovie.NomeDoFilme;
                 play.FilmeId = playmovie.FilmeId;
                 play.Filme = _filmeRepositorio.ObterPorId(playmovie.FilmeId);
                 play.EspectadorId = playmovie.EspectadorId;
@@ -49,7 +48,7 @@ namespace Api_MoviesController.Controllers
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id = 0)
+        public IActionResult Delete(int id = 0)
         {
             try
             {
