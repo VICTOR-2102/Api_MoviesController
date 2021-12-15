@@ -13,6 +13,8 @@ namespace Repositorio.Config
     {
         public void Configure(EntityTypeBuilder<Espectador> builder)
         {
+            //A Config é a Configuração das entidades que serão criadas no banco de dados a
+            //partir do principio de desenvolvimento code first.
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Nome).IsRequired();
             builder.Property(e => e.Telefone).IsRequired();

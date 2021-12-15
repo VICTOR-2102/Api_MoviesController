@@ -116,6 +116,10 @@ namespace Repositorio.Migrations
                     b.Property<int>("FilmeId")
                         .HasColumnType("int");
 
+                    b.Property<string>("NomeDoEspectador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NomeDoFilme")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

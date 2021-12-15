@@ -12,7 +12,8 @@ namespace Repositorio.Config
     public class FilmeConfig : IEntityTypeConfiguration<Filme>
     {
         public void Configure(EntityTypeBuilder<Filme> builder)
-        {
+        {   //A Config é a Configuração das entidades que serão criadas no banco de dados a
+            //partir do principio de desenvolvimento code first.
             builder.HasKey(f => f.Id);
             builder.Property(f => f.Nome).IsRequired();
             builder.Property(f => f.AnoLancamento).IsRequired();

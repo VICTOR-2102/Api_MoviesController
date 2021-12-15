@@ -8,6 +8,8 @@ namespace Dominio.Entidades
 {
     public class PlayMovie : Base  
     {
+        public string NomeDoFilme { get; set; }
+        public string NomeDoEspectador { get; set; }
         public int EspectadorId { get; set; }
         public int FilmeId { get; set; }
         public virtual Espectador Espectador { get; set; }

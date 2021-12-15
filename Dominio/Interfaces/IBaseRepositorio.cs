@@ -15,3 +15,5 @@ namespace Dominio.Interfaces
         void Remover(Tentity entity);
     }
 }
+//Interfaces: As interfaces visam criar uma abstração do repositório em si, apenas
+//para representar as operações que serão feitas nos dados.

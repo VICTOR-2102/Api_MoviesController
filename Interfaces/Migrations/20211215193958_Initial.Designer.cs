@@ -11,7 +11,7 @@ using Repositorio.Contexto;
 namespace Repositorio.Migrations
 {
     [DbContext(typeof(BancoContexto))]
-    [Migration("20211214180007_Initial")]
+    [Migration("20211215193958_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -117,6 +117,10 @@ namespace Repositorio.Migrations
 
                     b.Property<int>("FilmeId")
                         .HasColumnType("int");
+
+                    b.Property<string>("NomeDoEspectador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeDoFilme")
                         .IsRequired()

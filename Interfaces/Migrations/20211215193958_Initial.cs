@@ -59,6 +59,7 @@ namespace Repositorio.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NomeDoFilme = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NomeDoEspectador = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EspectadorId = table.Column<int>(type: "int", nullable: false),
                     FilmeId = table.Column<int>(type: "int", nullable: false)
                 },
